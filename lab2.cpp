@@ -1,23 +1,20 @@
 #include <iostream>
-#include <Windows.h>
 
 using namespace std;
 int main()
 {
     float a, b, c;
     int m = 54, k = 34, n = 2;
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
 
     // Введення загальної кількості макулатури, зібраної всіма загонами (m)
-    cout << "Загальна кількість макулатури, зібрану всіма загонами (m): " << m << endl;
+    cout << "The total amount of waste paper collected by all units (m): " << m << endl;
 
     // Введення різниці між другим і першим загонами (k)
-    cout << "Різниця між другим і першим загонами (k): " << k << endl;
+    cout << "The differense between the second and first squads (k): " << k << endl;
  
 
     // Введення різниці між третім і першим загонами (n)
-    cout << "Різниця між третім і першим загонами (n): " << n << endl;
+    cout << "The differense between the third and first squads (n): " << n << endl;
     
 
     // Знаходження кількості макулатури для кожного загону
@@ -26,8 +23,8 @@ int main()
     c = a + n;   // Третій загін
 
     // Виведення результатів
-    cout << "Перший загін зібрав " << a << " кг макулатури." << endl;
-    cout << "Другий загін зібрав " << b << " кг макулатури." << endl;
-    cout << "Третій загін зібрав " << c << " кг макулатури." << endl;
+    cout << "The first squad gathered " << a  << endl;
+    cout << "The second squad gathered " << b  << endl;
+    cout << "The third squad gathered " << c  << endl;
 	
 }
